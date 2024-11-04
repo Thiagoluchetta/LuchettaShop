@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #E8E8E8;
+}
+@media(max-width:300px){
+    .topo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+}
+.container{
+    max-width: 950px;
+    background-color:#E8E8E8;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+img{
+    height: 230px;
+    width: 270px;
+}
+.preços,.nomes,input{
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+
+div{
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 2px 3px 5px 3px #08080858;
+    
+}
+.butoes{
+    background-color: #3283D0;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    width: 150px;
+    margin: 5px;
+
+}
+.topo{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding:12px 50px 0px 50px;
+    box-shadow:  15px 1px 15px black;
+    margin-bottom: 25px;
+}
+#promo{
+    height:40px;
+    margin-right: 255px;
+    
+    
+}
+.logo{background-color: white;
+    padding:0px 0px 0px 250px;
+    font-size: 38px;
+    font-weight: 700;
+
+}
